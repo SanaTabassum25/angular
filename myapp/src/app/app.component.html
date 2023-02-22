@@ -1,0 +1,64 @@
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myapp</title>
+    <link rel= "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .bg{
+            background-color: rgb(0, 143, 187);
+        }
+    </style>
+
+    <nav class="navbar navbar-inverse">
+        <div class="conatainer-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" >Save trees.com</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"> <a href="#">Home</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Get in touch<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Subsribe Us</a></li>
+                        <li><a href="#">Regristration</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span>Signup</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron bg text-center">
+        <h1>My first FSWD Program</h1>
+        <p>your tagline</p>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3> Column 1</h3>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus obcaecati corporis totam, reprehenderit repudiandae ut cumque deserunt officia saepe voluptate unde eum impedit dolores commodi maxime itaque cum mollitia optio.</p>
+                <img src="../assets/burger.jpeg" width="100px" height="200px">
+            </div>
+            <div class="col-sm-4">
+                <h3> Column 2</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti enim dolorum odio ratione facilis quae nobis suscipit sapiente laudantium distinctio molestias, accusantium id illo iusto aspernatur. Esse nulla iste ab.</p>
+                <img src="../assets/juice.png" width="100px" height="200px">
+            </div>
+            <div class="col-sm-4">
+                <h3> Column 3</h3>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo et assumenda impedit sequi? Totam at aperiam nulla commodi quae ullam eum in vitae! Necessitatibus soluta deleniti temporibus, deserunt ipsa hic?</p>
+                <img src="../assets/pizza.jpg" width="100px" height="200px">
+            </div>
+        </div>
+    </div>        
+
+    <router-outlet></router-outlet>
